@@ -26,15 +26,26 @@ button {
 button:hover {
   background-color: steelblue;
 }
-.first-step {
+
+.second-step {
   display: none;
 }
+.final-step {
+  display: none;
+}
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 input {
   padding: 5px;
   border-radius: 5px;
   border: none;
   outline: none;
 }
-.second-step {
-  display: none;
+
+#resultado {
+  font-size: 25px;
 }
